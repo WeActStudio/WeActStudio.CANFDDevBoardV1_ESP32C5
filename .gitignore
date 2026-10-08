@@ -1,0 +1,48 @@
+*.psd
+*.o
+.DS_Store
+*~
+.~lock*
+*.uvopt
+*.dep
+*.bak
+*.uvgui.*
+*.uvguix.*
+
+UNSupport/
+
+*.swp
+*.save
+.project
+.cproject
+obj/
+patches/
+.idea
+*.crf
+*.d
+*.lnp
+
+# artefacts of top-level Makefile
+/downloads/
+# local changes only
+make/local.mk
+
+# artefacts for VisualGDB (running in Visual Studio)
+mcu.mak
+mcu.mak.old
+stm32.mak
+
+# eclipse launch configurations
+/support/eclipse
+
+# ozone launch configurations
+/support/ozone
+
+# artefacts for CLion
+/cmake-build-debug/
+
+.vagrant
+ubuntu*.log
+/.vs
+
+/.vscode
